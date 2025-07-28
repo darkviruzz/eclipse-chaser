@@ -1,0 +1,14 @@
+{
+  "radius_km": 250,
+  "weights": {
+    "geometry": 0.25,
+    "solar_alt": 0.10,
+    "cloud": 0.20,
+    "aerosol": 0.10,
+    "fire": 0.05,
+    "topography": 0.15,
+    "access": 0.10,
+    "alternates": 0.05
+  },
+  "thresholds": { "min_solar_alt_deg": 2.0, "max_horizon_cut_deg": 1.0 }
+}
